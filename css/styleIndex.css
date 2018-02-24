@@ -40,12 +40,23 @@ html{
   border-style: none;
 }
 
+.carousel{
+  background-color: white;
+  /*height: 100%*/
+}
+
+.itemsMenu{
+  color: white;
+}
+
+
+
 @media only screen and (max-width : 1500px) {
-#imagesCarousel{
+/*#imagesCarousel{
   margin-top: 7%;
   padding-top: 40%;
   width: auto;
   height: 100%;
   overflow: scroll;
-}
+}*/
 }
