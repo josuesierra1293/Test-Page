@@ -2,107 +2,113 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>M3 Magazine</title>
 
-      <!--CSS & Icons-->
+  <!--CSS & Icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/styleIndex.css">
 </head>
 <body onload="ini()">
 
-
-    <!--Navbar-->
-    <div class="row" id="header" style="text-align: center;">
-      <div class="col s12 m2 l2">
-        <img class="responsive-img" src="img\logo.png" style="width: 150px;">
-      </div> 
-
-      <div class="col s12 m8 l8" style="border-color: black; border-style: double;">
-        <h1 style="max-width: 100%; height: auto;">M3-Magazine</h1>
-      </div>
-
-      <div class="col s12 m2 l2" style="border-color: black; border-style: double;">
-        <br><br>
-        <a class="btn-floating btn-large waves-effect waves-light  green accent-4 pulse modal-trigger" href="#modal1"><i class="material-icons">menu</i></a>
-      </div>
+  <!--Navbar-->
+  <div class="row" id="header" style="text-align: center;">
+    <div class="col s12 m2 l2">
+      <img class="responsive-img" src="img\logo.png" style="width: 150px;">
     </div> 
 
-    <!-- Modal Structure -->
-    <div id="modal1" class="modal bottom-sheet" style="top: 155px; height: 60px; background: black">
-      <div class="row">
-        <div class="col s12" style="text-align: center;">
-          <ul class="">
-            <li class="col s2"><a href="#test1">Item 1</a></li>
-            <li class="col s2"><a href="#test2">Item 2</a></li>
-            <li class="col s2"><a href="#test3">Item 3</a></li>
-            <li class="col s2"><a href="#test4">Item 4</a></li>
-            <li class="col s2"><a class="modal-trigger" href="#modal2">Modal2</a></li>
-            <li class="col s2"><a href="#test2">Item 6</a></li>
-          </ul>
-        </div>
+    <div class="col s12 m8 l8" style="border-color: black; border-style: double;">
+      <h1 style="max-width: 100%; height: auto;">M3-Magazine</h1>
+    </div>
+
+    <div class="col s12 m2 l2 " style="border-color: black; border-style: double;">
+      <br><br>
+      <a class="btn-floating btn-large waves-effect waves-light  green accent-4 pulse modal-trigger" href="#modal1"><i class="material-icons">menu</i></a>
+    </div>
+  </div> 
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet" style="top: 155px; height: 60px; background: black;">
+    <div class="row">
+      <div class="col s12" style="text-align: center;">
+        <ul class="">
+          <li class="col s2"><b><a href="#test1" style="color: green; font-variant-caps: all-small-caps;">Item 1</a></b></li>
+          <li class="col s2 "><b><a href="#test2" style="color: green; font-variant-caps: all-small-caps"  >Item 2</a></b></li>
+          <li class="col s2"><a href="#test3" style="color: yellow; font-style: italic;" >Item 3</a></li>
+          <li class="col s2"><a href="#test4" style="color: yellow;  font-style: italic">Item 4</a></li>
+          <li class="col s2"><a class="modal-trigger" href="#modal2" style="color: white;">Modal2</a></li>
+          <li class="col s2"><a href="#test2" style="color: white">Item 6</a></li>
+        </ul>
       </div>
-    </div> 
-    <div id="modal2" class="modal" style="" align="center">
-      <div class="carousel" style="background: black">
-        <h1>Revistas</h1>
-          <a class="carousel-item" href="#one!"><img src="img\logo.png"></a>
-          <a class="carousel-item" href="#two!"><img src="img\logo.png"></a>
-          <a class="carousel-item" href="#three!"><img src="img\logo.png"></a>
-          <a class="carousel-item" href="#four!"><img src="img\logo.png"></a>
-          <a class="carousel-item" href="#five!"><img src="img\logo.png"></a>
-        </div>
-      </div>
+    </div>
+  </div> 
+  <div id="modal2" class="modal" style="" align="center">
+    <div class="carousel" style="background: black">
+      <h1>Revistas</h1>
+      <a class="carousel-item" href="#one!"><img src="img\logo.png"></a>
+      <a class="carousel-item" href="#two!"><img src="img\logo.png"></a>
+      <a class="carousel-item" href="#three!"><img src="img\logo.png"></a>
+      <a class="carousel-item" href="#four!"><img src="img\logo.png"></a>
+      <a class="carousel-item" href="#five!"><img src="img\logo.png"></a>
+    </div>
+  </div>
 
   <div class="carrusel2">
   </div>
   <div class="carrusel1">
   </div>
 
-  <div class="carousel carousel-slider center"  id="imagesCarousel">
-    
+ 
+  <div style="height: 100%" class="carousel carousel-slider center"  id="imagesCarousel">
+
     <div  class="carousel-item white white-text" href="#one!" onclick="count = 0">
       <div style="height: 100%;">
-      <a><img src="img/m3-Magazine.png" height="80%" width="100%">
+        <a><img src="img/m3-Magazine.png" height="80%" width="100%">
 
          <div style="height: auto; color: black;" >
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<br>
-      <b><button id="buttonSlider">Ver mas</button></b>
-    </div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <br>
+          <b><button id="buttonSlider">Ver mas</button></b>
+        </div>
       </a>
-      </div>
-      
     </div>
-    <div class="carousel-item white white-text" href="#two!" onclick="count = 0">
-      <a><img src="img/0715_COV_391.jpg" height="80%" width="100%">
-       <div style="height: 100%; color: black" >
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<br>
-      <b><button id="buttonSlider">Ver mas</button></b>
-    </div>
-  </a>
-    </div>
-    <div class="carousel-item white white-text" href="#three!" onclick="count = 0">
-      <a><img src="img/download.jpg" height="80%" width="100%">
-       <div style="height: 100%; color: black" >
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<br>
-      <b><button id="buttonSlider">Ver mas</button></b>
-    </div>
-  </a>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!" onclick="count = 0">
-      <!-- <a><img src="https://lorempixel.com/800/400/food/4" height="100%"></a> -->
-    </div>
+
   </div>
+  <div class="carousel-item white-text" href="#two!" onclick="count = 0" style="background-color: #F5F5DCFF;">
+    <a><img src="img/0715_COV_391.jpg" height="80%" width="100%">
+     <div style="height: auto; color: black" >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br>
+      <b><button id="buttonSlider">Ver mas</button></b>
+    </div>
+  </a>
+</div>
+<div class="carousel-item orange white-text" href="#three!" onclick="count = 0">
+  <a><img src="img/download.jpg" height="80%" width="100%">
+   <div style="height: 100%; color: black" >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <br>
+    <b><button id="buttonSlider">Ver mas</button></b>
+  </div>
+</a>
+</div>
+<div class="carousel-item blue white-text" href="#four!" onclick="count = 0">
+  <a><img src="img/soccer.jpg" height="80%" width="100%">
+   <div style="height: 100%; color: black" >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <br>
+    <b><button id="buttonSlider">Ver mas</button></b>
+  </div>
+</a>
+</div>
+</div>
+            
+<!--Script-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/function.js"> </script>
 
-  <!--Script-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/function.js"> </script>
-  <script type="text/javascript" src="js/index.js"></script>
+</body>
 
-  </body>
 </html>
