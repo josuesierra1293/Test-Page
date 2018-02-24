@@ -29,8 +29,8 @@ html{
   margin-top: 7%;
   padding-top: 40%;
   width: auto;
-  height: 100%;
-  overflow: hidden;
+  height: 100%  !important;
+  background-color: white !important;
 }
 #buttonSlider{
   float: right;
@@ -38,11 +38,6 @@ html{
   color: green;
   font: bold;
   border-style: none;
-}
-
-.carousel{
-  background-color: white;
-  /*height: 100%*/
 }
 
 .itemsMenu{
