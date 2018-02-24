@@ -2,7 +2,7 @@
   padding-bottom: 0px;
   color: white;
   width: 18%;
-  height: 100%;
+  height: 100% !important;
   margin-bottom: 0px;
   float: left;
 }
@@ -42,6 +42,19 @@ html{
 
 .itemsMenu{
   color: white;
+}
+
+#marketingDiv{
+  border: cyan;
+  border-style: solid;
+  border-width: thin;
+  left: 10%;
+  right:10%;
+  width: 80%;
+  height: 25%;
+  background-color: #174e50;
+  position: relative;
+
 }
 
 
